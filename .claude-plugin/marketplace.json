@@ -1,0 +1,21 @@
+{
+  "name": "randomvariable-skills",
+  "owner": {
+    "name": "randomvariable"
+  },
+  "metadata": {
+    "description": "Agent skills for scholarly and technical work",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "paper-review",
+      "description": "Structured peer review of a manuscript or preprint, with verified citations and prioritized, actionable key claims",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/paper-review"
+      ]
+    }
+  ]
+}
